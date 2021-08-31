@@ -8,6 +8,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 //Router
 import { Switch, Route, useLocation } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 //Animation
 import { AnimatePresence } from "framer-motion";
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className='App'>
       <GlobalStyle />
+      <ScrollToTop />
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
