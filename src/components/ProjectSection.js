@@ -166,6 +166,7 @@ const Card = styled.div`
     align-items: center;
     div {
       width: 100%;
+      padding: 2rem 0rem;
     }
     img {
       overflow: hidden;
