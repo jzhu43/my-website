@@ -50,7 +50,7 @@ const ProjectSection = () => {
               href='https://github.com/jzhu43/bowPartPicker-frontend'
               target='_blank'
               rel='noopener noreferrer'>
-              <button>Check It Out!</button>
+              Check It Out!
             </a>
           </motion.div>
           <img src={bow} alt='Big Bow Builder' />
@@ -71,7 +71,7 @@ const ProjectSection = () => {
               href='https://github.com/jzhu43/music-player'
               target='_blank'
               rel='noopener noreferrer'>
-              <button>Check It Out!</button>
+              Check It Out!
             </a>
           </motion.div>
           <img src={music} alt='Music Player' />
@@ -92,7 +92,7 @@ const ProjectSection = () => {
               href='https://github.com/jzhu43/my-website'
               target='_blank'
               rel='noopener noreferrer'>
-              <button>Check It Out!</button>
+              Check It Out!
             </a>
           </motion.div>
           <img src={website} alt='My Website' />
@@ -125,19 +125,37 @@ const Card = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding-bottom: 15rem;
+  padding-bottom: 12rem;
   padding-top: 5rem;
   h3 {
-    margin-bottom: -1rem;
+    margin-bottom: 0rem;
     color: #4c7bcb;
   }
   div {
     float: right;
-    width: 45%;
+    width: 100%;
+    padding: 2rem 0rem;
+    a {
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 25px;
+      background: transparent;
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      font-size: 1.1rem;
+      border: 3px solid #4c7bcb;
+      transition: all 0.5s ease;
+      font-family: "Inter", sans-serif;
+      &:hover {
+        background-color: #4c7bcb;
+      }
+    }
   }
+
   img {
     width: 55%;
-    padding: 0rem 0rem 0rem 10rem;
+    padding: 0rem 0rem 3rem 10rem;
     object-fit: cover;
     z-index: 2;
   }
