@@ -133,7 +133,7 @@ const Card = styled.div`
   }
   div {
     float: right;
-    width: 100%;
+    width: 80%;
     padding: 2rem 0rem;
     a {
       cursor: pointer;
