@@ -133,7 +133,7 @@ const Card = styled.div`
   }
   div {
     float: right;
-    width: 80%;
+    width: 100%;
     padding: 2rem 0rem;
     a {
       cursor: pointer;
@@ -155,7 +155,7 @@ const Card = styled.div`
 
   img {
     width: 55%;
-    padding: 0rem 0rem 3rem 10rem;
+    padding: 0rem 0rem 5rem 10rem;
     object-fit: cover;
     z-index: 2;
   }
