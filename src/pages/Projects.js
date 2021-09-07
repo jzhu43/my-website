@@ -4,7 +4,6 @@ import ProjectSection from "../components/ProjectSection";
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
-import ScrollToTop from "../ScrollToTop";
 
 const Projects = () => {
   return (
@@ -14,7 +13,6 @@ const Projects = () => {
       animate='show'
       exit='exit'>
       <ProjectSection />
-      <ScrollToTop />
     </motion.div>
   );
 };

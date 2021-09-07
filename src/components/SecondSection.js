@@ -9,6 +9,7 @@ import { About, Description, Image } from "../styles";
 import Wave from "./Wave";
 import { scrollReveal } from "../animation";
 import { useScroll } from "./useScroll";
+import ScrollToTop from "../ScrollToTop";
 
 const SecondSection = () => {
   const [element, controls] = useScroll();
@@ -34,6 +35,7 @@ const SecondSection = () => {
       <Image>
         <img src={coding} alt='coding' />
       </Image>
+      <ScrollToTop />
     </Second>
   );
 };
