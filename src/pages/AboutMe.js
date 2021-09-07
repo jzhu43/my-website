@@ -5,6 +5,7 @@ import SecondSection from "../components/SecondSection";
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
+import ScrollToTop from "../ScrollToTop";
 
 const AboutMe = () => {
   return (
@@ -15,6 +16,7 @@ const AboutMe = () => {
       exit='exit'>
       <AboutSection />
       <SecondSection />
+      <ScrollToTop />
     </motion.div>
   );
 };

@@ -9,8 +9,6 @@ import website from "../img/website.png";
 //Framer Motion
 import { motion } from "framer-motion";
 import { fade, photoAnim } from "../animation";
-//Scroll Top
-import ScrollToTop from "../ScrollToTop";
 
 const ProjectSection = () => {
   return (
@@ -100,8 +98,6 @@ const ProjectSection = () => {
           <img src={website} alt='My Website' />
         </Card>
       </Cards>
-      {/* <Wave /> */}
-      <ScrollToTop />
     </Projects>
   );
 };
