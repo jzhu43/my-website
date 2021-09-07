@@ -8,16 +8,21 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 //Router
 import { Switch, Route, useLocation } from "react-router-dom";
-import ScrollToTop from "./ScrollToTop";
+
 //Animation
 import { AnimatePresence } from "framer-motion";
+//Import Google Analytics
+import ReactGA from "react-ga";
+import RouteTracker from "./RouteTracker";
 
 function App() {
   const location = useLocation();
+  const TRACKING_ID = "UA-206760172-1";
+  ReactGA.initialize(TRACKING_ID);
   return (
     <div className='App'>
+      <RouteTracker />
       <GlobalStyle />
-      <ScrollToTop />
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
