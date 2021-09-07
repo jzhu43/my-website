@@ -9,6 +9,8 @@ import website from "../img/website.png";
 //Framer Motion
 import { motion } from "framer-motion";
 import { fade, photoAnim } from "../animation";
+//Scroll Top
+import ScrollToTop from "../ScrollToTop";
 
 const ProjectSection = () => {
   return (
@@ -99,6 +101,7 @@ const ProjectSection = () => {
         </Card>
       </Cards>
       {/* <Wave /> */}
+      <ScrollToTop />
     </Projects>
   );
 };
@@ -171,9 +174,8 @@ const Card = styled.div`
     img {
       overflow: hidden;
       width: auto;
-      max-width: 100%;
       height: auto;
-      object-fit: scale-down;
+      object-fit: fill;
       padding: 3rem 3rem;
     }
   }

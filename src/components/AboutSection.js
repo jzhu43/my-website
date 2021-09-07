@@ -1,7 +1,7 @@
 import React from "react";
 // import home1 from "../img/home1.png";
 import myself from "../img/Myself.png";
-
+import ScrollToTop from "../ScrollToTop";
 import { About, Description, Image, Hide } from "../styles";
 import styled from "styled-components";
 //Framer Motion
@@ -52,6 +52,7 @@ const AboutSection = () => {
         <motion.img variants={photoAnim} src={myself} alt='Its me!' />
       </Image>
       <Wave />
+      <ScrollToTop />
     </About>
   );
 };
