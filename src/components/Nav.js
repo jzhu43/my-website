@@ -1,10 +1,10 @@
-import React from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom";
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { useLocation } from 'react-router-dom';
 // import Resume from "./pages/Resume";
-import Pdf from "../Jason-Zhu_Resume.pdf";
+import Pdf from '../Jason_Zhu_Resume.pdf';
 
 const Nav = () => {
   const { pathname } = useLocation();
@@ -20,16 +20,16 @@ const Nav = () => {
           <Link to='/'>About Me</Link>
           <Line
             transition={{ duration: 0.75 }}
-            initial={{ width: "0%" }}
-            animate={{ width: pathname === "/" ? "50%" : "0%" }}
+            initial={{ width: '0%' }}
+            animate={{ width: pathname === '/' ? '50%' : '0%' }}
           />
         </li>
         <li>
           <Link to='/projects'>Projects</Link>
           <Line
             transition={{ duration: 0.75 }}
-            initial={{ width: "0%" }}
-            animate={{ width: pathname === "/projects" ? "50%" : "0%" }}
+            initial={{ width: '0%' }}
+            animate={{ width: pathname === '/projects' ? '50%' : '0%' }}
           />
         </li>
         <li>
@@ -68,7 +68,7 @@ const StyledNav = styled.nav`
   }
   #logo {
     font-size: 2rem;
-    font-family: "Lobster", cursive;
+    font-family: 'Lobster', cursive;
     font-weight: lighter;
   }
   @media (max-width: 1300px) {
