@@ -1,15 +1,15 @@
-import React from "react";
-import Wave from "./Wave";
-import styled from "styled-components";
+import React from 'react';
+import Wave from './Wave';
+import styled from 'styled-components';
 //Images
-import cisco from "../img/cisco.png";
-import bow from "../img/bowbuilder.jpeg";
-import music from "../img/music-player.png";
-import website from "../img/website.png";
+import cisco from '../img/cisco.png';
+import music from '../img/music-player.png';
+import website from '../img/website.png';
+import stock from '../img/stock.jpeg';
 //Framer Motion
-import { motion } from "framer-motion";
-import { fade, photoAnim } from "../animation";
-import ScrollToTop from "../ScrollToTop";
+import { motion } from 'framer-motion';
+import { fade, photoAnim } from '../animation';
+import ScrollToTop from '../ScrollToTop';
 
 const ProjectSection = () => {
   return (
@@ -38,23 +38,23 @@ const ProjectSection = () => {
         <Wave />
         <Card>
           <motion.div variants={fade}>
-            <h3>Big Bow Builder</h3>
+            <h3>Stock 'ems</h3>
             <p>
-              A web application that aims to help UC Merced Archery Team members
-              source archery equipment across a variety of reputable resellers.
+              A complete MERN stack web application designed for stock traders
+              to post ideas and discuss amongst other traders!
             </p>
             <footer>
               <h4>Technologies Used:</h4>
-              <p>Typescript, Angular, Ionic Framework</p>
+              <p>MongoDB, Express, Node.js, React, Redux</p>
             </footer>
             <a
-              href='https://github.com/jzhu43/bowPartPicker-frontend'
+              href='https://github.com/jzhu43/Stock--ems'
               target='_blank'
               rel='noopener noreferrer'>
               Check It Out!
             </a>
           </motion.div>
-          <img src={bow} alt='Big Bow Builder' />
+          <img src={stock} alt="Stock 'ems" />
         </Card>
         <Wave />
         <Card>
@@ -147,7 +147,7 @@ const Card = styled.div`
       font-size: 1.1rem;
       border: 3px solid #4c7bcb;
       transition: all 0.5s ease;
-      font-family: "Inter", sans-serif;
+      font-family: 'Inter', sans-serif;
       &:hover {
         background-color: #4c7bcb;
       }
