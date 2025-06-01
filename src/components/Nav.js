@@ -12,7 +12,7 @@ const Nav = () => {
     <StyledNav>
       <h1>
         <Link id='logo' to='/'>
-          Jason Zhu - Aspiring Software Engineer
+          Jason Zhu
         </Link>
       </h1>
       <ul>
@@ -46,7 +46,7 @@ const StyledNav = styled.nav`
   max-width: 100%;
   position: sticky;
   top: 0;
-  min-height: 10vh;
+  min-height: 8vh;
   display: flex;
   margin: auto;
   justify-content: space-between;
@@ -68,8 +68,8 @@ const StyledNav = styled.nav`
   }
   #logo {
     font-size: 2rem;
-    font-family: 'Lobster', cursive;
-    font-weight: lighter;
+    font-family: 'Arial';
+    font-weight: normal;
   }
   @media (max-width: 1300px) {
     flex-direction: column;

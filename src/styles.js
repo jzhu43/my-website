@@ -31,13 +31,13 @@ export const Description = styled.div`
 `;
 
 export const Image = styled.div`
-  flex: 1;
+  flex: 0.75;
   overflow: hidden;
   z-index: 2;
   border-radius: 90%;
   img {
     width: 100%;
-    height: 70vh;
+    height: 65vh;
     object-fit: cover;
   }
 `;

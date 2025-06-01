@@ -7,8 +7,8 @@ import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
   return (
     <StyledFooter>
-      <FontAwesomeIcon icon={faCopyright} size='2x' />
-      <h1>2022 Jason Zhu</h1>
+      <FontAwesomeIcon icon={faCopyright} size='2x' style={{ marginRight: '8px' }}/>
+      <h1>2025 Jason Zhu</h1>
       <div>
         <a
           href='https://www.linkedin.com/in/jason-zhu-01/'
@@ -36,14 +36,14 @@ const StyledFooter = styled.footer`
   padding: 1.5rem 4rem;
   background: #282828;
   color: white;
-  font-size: 0.75rem;
+  font-size: 0.70rem;
   display: flex;
   align-items: center;
   div {
     display: flex;
     width: 10%;
     justify-content: space-evenly;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
     a {
       color: white;
       &:hover {
