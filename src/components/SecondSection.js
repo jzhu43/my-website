@@ -20,12 +20,13 @@ const SecondSection = () => {
       initial='hidden'
       ref={element}>
       <Description>
-        <h2>Project Experience</h2>
+        <h2>Coding Experience</h2>
         <p>
-          During my time at the University of California, Merced, I have learned
-          the core programming concepts, which helped me build a strong
-          object-oriented background. I have developed a strong interest in
-          frontend and full-stack development. Check out my projects!
+          At the University of California, Merced, I built a solid foundation
+          in core programming concepts with a strong emphasis on object-oriented design.
+          Over time, I discovered a passion for frontend and full-stack development,
+          where I enjoy bringing ideas to life through clean, interactive interfaces.
+          Feel free to explore my projects!
         </p>
         <Link to='/projects'>
           <button>See Projects</button>

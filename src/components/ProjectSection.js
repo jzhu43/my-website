@@ -32,10 +32,16 @@ const ProjectSection = () => {
               <h4>Technologies Used:</h4>
               <p>Typescript, Angular, Ionic Framework, XCode</p>
             </footer>
+            <a
+              href='https://youtu.be/cpdxy30E5jU'
+              target='_blank'
+              rel='noopener noreferrer'>
+              Youtube Presentation
+            </a>
           </motion.div>
           <motion.img variants={photoAnim} src={cisco} alt="Cisco's Logo" />
         </Card>
-        <Wave />
+        {/* <Wave /> */}
         <Card>
           <motion.div variants={fade}>
             <h3>Stock 'ems</h3>
@@ -56,7 +62,7 @@ const ProjectSection = () => {
           </motion.div>
           <img src={stock} alt="Stock 'ems" />
         </Card>
-        <Wave />
+        {/* <Wave /> */}
         <Card>
           <motion.div variants={fade}>
             <h3>Beats Music Player</h3>
@@ -77,7 +83,7 @@ const ProjectSection = () => {
           </motion.div>
           <img src={music} alt='Music Player' />
         </Card>
-        <Wave />
+        {/* <Wave /> */}
         <Card>
           <motion.div variants={fade}>
             <h3>My Website</h3>
@@ -115,6 +121,7 @@ const Projects = styled.div`
 `;
 
 const Cards = styled.div`
+  // outline-style: solid;
   font-size: 2.5rem;
   h4 {
     margin-bottom: -2rem;
@@ -123,6 +130,7 @@ const Cards = styled.div`
 `;
 
 const Card = styled.div`
+  // outline-style: dashed;
   display: flex;
   justify-content: space-between;
   flex-direction: row;

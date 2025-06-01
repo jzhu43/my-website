@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    // outline-style: solid;
 }
 
 html{
@@ -49,6 +50,7 @@ h4{
 }
 a{
     font-size: 1.1.rem;
+    // outline-style: solid;
 }
 span{
     font-weight: bold;

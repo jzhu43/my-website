@@ -17,21 +17,20 @@ const AboutSection = () => {
       <Description>
         <motion.div>
           <Hide>
-            <motion.h2 variants={titleAnim}>Hi</motion.h2>
+            <motion.h2 variants={titleAnim}>Hi!</motion.h2>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnim}>My name is</motion.h2>
+            <motion.h2 variants={titleAnim}>My name is <span>Jason Zhu</span>.</motion.h2>
           </Hide>
-          <Hide>
+          {/* <Hide>
             <motion.h2 variants={titleAnim}>
-              <span>Jason Zhu!</span>
+              <span>Jason Zhu.</span>
             </motion.h2>
-          </Hide>
+          </Hide> */}
         </motion.div>
         <motion.p variants={fade}>
-          I am a recent graduate at the University of California, Merced with a
-          degree in computer science and engineering. I am currently looking for
-          entry level software engineering positions.
+          I am a software engineer at Wells Fargo on the Zelle microservice team developing backend APIs mainly in Core Java. I am currently looking for
+          entry to mid level software engineering positions. Connect with me!
         </motion.p>
         <StyledIcons variants={fade}>
           <a
