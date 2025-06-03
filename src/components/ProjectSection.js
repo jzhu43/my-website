@@ -54,10 +54,16 @@ const ProjectSection = () => {
               <p>MongoDB, Express, Node.js, React, Redux</p>
             </footer>
             <a
-              href='https://github.com/jzhu43/Stock--ems'
+              href='https://trade-connector.onrender.com'
               target='_blank'
               rel='noopener noreferrer'>
               Check It Out!
+            </a>
+            <a
+              href='https://github.com/jzhu43/Stock--ems'
+              target='_blank'
+              rel='noopener noreferrer'>
+              Github Link
             </a>
           </motion.div>
           <img src={stock} alt="Stock 'ems" />
@@ -78,7 +84,7 @@ const ProjectSection = () => {
               href='https://github.com/jzhu43/music-player'
               target='_blank'
               rel='noopener noreferrer'>
-              Check It Out!
+              Github Link
             </a>
           </motion.div>
           <img src={music} alt='Music Player' />
@@ -96,10 +102,16 @@ const ProjectSection = () => {
               <p>Javascript, React, Figma</p>
             </footer>
             <a
-              href='https://github.com/jzhu43/my-website'
+              href='https://jasonzhu.netlify.app'
               target='_blank'
               rel='noopener noreferrer'>
               Check It Out!
+            </a>
+            <a
+              href='https://github.com/jzhu43/my-website'
+              target='_blank'
+              rel='noopener noreferrer'>
+              Github link
             </a>
           </motion.div>
           <img src={website} alt='My Website' />
