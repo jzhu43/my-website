@@ -37,6 +37,9 @@ const Nav = () => {
             Resume
           </a>
         </li>
+        <li>
+          <a href="/#contact-section">Contact</a>
+        </li>
       </ul>
     </StyledNav>
   );
