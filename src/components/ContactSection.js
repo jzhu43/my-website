@@ -40,6 +40,11 @@ const ContactSection = () => {
             initial='hidden'
             ref={element}>
             <h2>Contact Me</h2>
+            <form name="contact" method="POST" data-netlify="true" hidden>
+                <input type="text" name="name" />
+                <input type="email" name="email" />
+                <textarea name="message"></textarea>
+            </form>
             <ContactForm>
                 <p>Have a question or want to connect? Leave your message and I will get back to you as soon as possible!</p>
                 <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
