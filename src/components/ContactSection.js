@@ -58,6 +58,10 @@ const ContactSection = () => {
             )}
             <Wave />
             <ScrollToTop />
+            <form name="test-contact" method="POST" data-netlify="true">
+                <input type="text" name="name" />
+                <button type="submit">Send</button>
+            </form>
         </Contact>
     );
 };
