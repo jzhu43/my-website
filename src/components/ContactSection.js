@@ -42,7 +42,7 @@ const ContactSection = () => {
             <h2>Contact Me</h2>
             <ContactForm>
                 <p>Have a question or want to connect? Leave your message and I will get back to you as soon as possible!</p>
-                <form name="contact" method="POST" data-netlify-honeypot="bot-field" onSubmit={handleSubmit} netlify>
+                <form name="contact" action="showThankYou" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
                     <input type="hidden" name="form-name" value="contact" />
                     <p hidden>
                         <label>Don’t fill this out: <input name="bot-field" /></label>
